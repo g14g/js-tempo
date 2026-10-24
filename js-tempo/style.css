@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: grey;
+    background-color: lightgray;
     margin: 1rem;
     padding: 1rem;
     border-radius: 5px;
@@ -21,7 +21,7 @@ body {
     width: 100%;
     height: 1rem;
     border-radius: 5px;
-    background-image: repeating-linear-gradient(to right, #ffffff 0%, /* Spazio bianco fino quasi al 1% */ #ffffff calc(1% - 2px), /* Inizio della tacca colorata */ grey calc(1% - 2px), /* Fine della tacca a 2px di spessore */ grey 1%);
+    background-image: repeating-linear-gradient(to right, #ffffff 0%, /* Spazio bianco fino quasi al 1% */ #ffffff calc(1% - 2px), /* Inizio della tacca colorata */ lightgray calc(1% - 2px), /* Fine della tacca a 2px di spessore */ lightgray 1%);
 }
 
 #progress {
@@ -30,4 +30,12 @@ body {
     border-radius: 5px;
     width: 100%;
     margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+p {
+    margin: 1rem 0;
 }
